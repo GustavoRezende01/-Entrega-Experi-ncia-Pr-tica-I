@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Voluntário</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header>
+    <h1>Seja um Voluntário</h1>
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="projetos.html">Projetos</a>
+    </nav>
+</header>
+
+<section class="cadastro">
+    <form id="formVoluntario">
+        <input type="text" id="nome" placeholder="Nome Completo" required>
+        <input type="email" id="email" placeholder="E-mail" required>
+        <textarea id="motivo" placeholder="Por que quer ser voluntário?" required></textarea>
+        <button type="submit" class="btn">Cadastrar</button>
+    </form>
+</section>
+
+<section id="listaVoluntarios">
+    <h2>Voluntários Cadastrados</h2>
+    <ul id="voluntarios"></ul>
+</section>
+
+<footer>
+    <p>© 2025 Conexão Solidária | Desenvolvido por alunos da Cruzeiro do Sul</p>
+</footer>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>
